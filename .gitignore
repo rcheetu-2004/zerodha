@@ -1,3 +1,4 @@
-# Node.js
+# Ignore node_modules directory
+# and environment variables file
 node_modules/
 .env
