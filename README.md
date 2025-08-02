@@ -112,7 +112,7 @@ JWT_SECRET=your_jwt_secret
   <a href="https://github.com/rcheetu-2004">
     <img src="https://img.shields.io/badge/GitHub-rcheetu--2004-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
   </a>
-  <a href="https://www.linkedin.com/in/rydhamcheetu">
+  <a href="https://www.linkedin.com/in/rydham-cheetu">
     <img src="https://img.shields.io/badge/LinkedIn-Rydham%20Cheetu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
   </a>
 </p>
