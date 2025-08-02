@@ -1,80 +1,104 @@
-<h1 align="center">💹 Zerodha Clone – Stock Trading Platform Simulation</h1>
+# 💹 Zerodha Clone – Stock Trading Platform Simulation
 
-<p align="center">
-  A full-stack MERN-based simulation of India's largest stock trading platform – <strong>Zerodha</strong>. <br />
-  Experience secure trading, portfolio tracking, real-time charting, and a seamless UI/UX.
-</p>
+A full-stack simulation of the popular Zerodha trading platform. This project focuses on replicating core functionalities of Zerodha, including real-time charts, stock search, and user dashboard, all built using a modern MERN stack.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 **JWT Authentication** – Secure user login & route protection  
-- 📈 **Buy/Sell Simulation** – Mimics actual trading logic  
-- 💹 **Chart.js Integration** – Interactive stock chart visualizations  
-- 📊 **Portfolio Management** – Track your owned stocks and values  
-- 🧾 **Transaction History** – Full record of all buy/sell actions  
-- 📱 **Responsive Design** – Clean UI optimized for mobile & desktop  
-- 🧩 **Modular Code Structure** – Organized, scalable, and developer-friendly  
+- 📈 Live charting interface with technical indicators (Chart.js)
+- 🔍 Stock search and real-time data mock
+- 📋 Portfolio dashboard with stock holdings view
+- 🧑‍💼 Secure user login & authentication (JWT-based)
+- 💡 Clean, responsive, and intuitive UI
+- ⚙️ Scalable architecture with modular folder structure
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech         | Purpose                          |
-|--------------|----------------------------------|
-| **React.js** | Frontend                         |
-| **Node.js**  | Backend runtime                  |
-| **Express**  | API development                  |
-| **MongoDB**  | NoSQL database                   |
-| **JWT**      | Authentication & authorization   |
-| **Chart.js** | Stock charts & data visualization|
-| **CSS/SCSS** | Styling and layout               |
+| Category           | Technology                                 |
+|--------------------|---------------------------------------------|
+| **Frontend**        | React.js, Tailwind CSS, Axios, Chart.js     |
+| **Backend**         | Node.js, Express.js, Bcrypt.js, JWT         |
+| **Database**        | MongoDB, Mongoose                           |
+| **Authentication**  | JSON Web Tokens (JWT), bcrypt               |
+| **State Management**| React Context API                          |
+| **Dev Tools**       | Postman, Nodemon, concurrently              |
+| **Version Control** | Git, GitHub                                 |
+| **Deployment**      | (Optional: Render / Vercel / MongoDB Atlas) |
 
 ---
 
-## 📁 Folder Structure
+## 📂 Folder Structure
 
 ```
-zerodha/
-├── backend/          → Express server & routes
-├── frontend/         → React app (Zerodha UI)
-├── dashboard/        → User dashboard layout & logic
-├── images/           → Static assets & logos
+zerodha-clone/
+│
+├── backend/                     # Express backend
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── index.js
+│
+├── frontend/                    # React frontend
+│   ├── public/
+│   └── src/
+│       ├── assets/
+│       ├── components/
+│       ├── constants/
+│       ├── context/
+│       ├── pages/
+│       ├── services/
+│       ├── utils/
+│       └── App.jsx
+│
+├── dashboard/                  # Static dashboard images or data
+│
+├── images/                     # Project screenshots, logos
+│
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation Guide
+## ⚙️ Installation & Setup
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/rycheetu-2004/zerodha.git
+> Follow these steps to run the project locally.
 
-# 2. Install dependencies
-# Backend
-cd zerodha/backend
-npm install
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/rcheetu-2004/zerodha-clone.git
+   cd zerodha-clone
+   ```
 
-# Frontend
-cd ../frontend
-npm install
+2. **Setup backend**
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+   ```
 
-# 3. Add .env file in /backend
+3. **Setup frontend**
+   ```bash
+   cd ../frontend
+   npm install
+   npm run dev
+   ```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the `backend` directory with the following:
+
+```env
 PORT=5000
-MONGODB_URI=your_mongo_uri
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
-
-# 4. Run the project
-# Backend
-cd backend
-npm run dev
-
-# Frontend
-cd ../frontend
-npm start
 ```
 
 ---
@@ -85,19 +109,10 @@ npm start
   <a href="mailto:rydhamcheetu4@gmail.com">
     <img src="https://img.shields.io/badge/Email-rydhamcheetu4@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/rycheetu-2004">
-    <img src="https://img.shields.io/badge/GitHub-rycheetu--2004-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+  <a href="https://github.com/rcheetu-2004">
+    <img src="https://img.shields.io/badge/GitHub-rcheetu--2004-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
   </a>
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ryhamcheetu">
+  <a href="https://www.linkedin.com/in/rydhamcheetu">
     <img src="https://img.shields.io/badge/LinkedIn-Rydham%20Cheetu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
   </a>
 </p>
-
----
-
