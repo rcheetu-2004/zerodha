@@ -81,21 +81,23 @@ npm start
 
 ## 📬 Contact Me
 
-<div align="center">
+<p align="center">
+  <a href="mailto:rydhamcheetu4@gmail.com">
+    <img src="https://img.shields.io/badge/Email-rydhamcheetu4@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Badge" />
+  </a>
+</p>
 
-<a href="mailto:rydhamcheetu4@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-rydhamcheetu4@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+<p align="center">
+  <a href="https://github.com/rycheetu-2004">
+    <img src="https://img.shields.io/badge/GitHub-rycheetu--2004-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Badge" />
+  </a>
+</p>
 
-<a href="https://github.com/rycheetu-2004">
-  <img src="https://img.shields.io/badge/GitHub-rycheetu--2004-181717?style=for-the-badge&logo=github&logoColor=white" />
-</a>
-
-<a href="https://www.linkedin.com/in/ryhamcheetu">
-  <img src="https://img.shields.io/badge/LinkedIn-Rydham%20Cheetu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/ryhamcheetu">
+    <img src="https://img.shields.io/badge/LinkedIn-Rydham%20Cheetu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" />
+  </a>
+</p>
 
 ---
 
